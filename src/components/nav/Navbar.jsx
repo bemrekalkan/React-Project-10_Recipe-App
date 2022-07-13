@@ -1,13 +1,13 @@
-import NavbarStyle from "./Navbar.style";
+import Nav, { Logo } from "./Navbar.style";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav>
-      <div>
+    <Nav justify="space-between" wrap="wrap">
+      <Logo to="/">
         <i>{"<Clarusway/>"}</i>
         <span>Recipe</span>
-      </div>
+      </Logo>
 
       <div>
         <Link to="/">Home</Link>
@@ -15,7 +15,7 @@ const Navbar = () => {
         <Link to="/register">Register</Link>
         <Link to="/logout">Logout</Link>
       </div>
-    </nav>
+    </Nav>
   );
 };
 
