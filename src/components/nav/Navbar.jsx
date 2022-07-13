@@ -16,11 +16,14 @@ const Navbar = () => {
         <GiHamburgerMenu />
       </Hamburger>
 
-      <Menu isOpen={isOpen}>
+      {/* bubling 👇 (onClick) */}
+      <Menu isOpen={isOpen} onClick={() => setIsOpen(false)}>
         <MenuLink to="/">Home</MenuLink>
         <MenuLink to="/about">About</MenuLink>
         <MenuLink to="/register">Register</MenuLink>
-        <MenuLink to="/logout">Logout</MenuLink>
+        <MenuLink to="/login" onClick={() => sessionStorage.clear()}>
+          Logout
+        </MenuLink>
       </Menu>
     </Nav>
   );
