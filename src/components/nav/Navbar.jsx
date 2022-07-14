@@ -1,5 +1,4 @@
 import Nav, { Logo, Menu, MenuLink, Hamburger } from "./Navbar.style";
-import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";
 
