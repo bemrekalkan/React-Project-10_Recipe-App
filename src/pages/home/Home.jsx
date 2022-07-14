@@ -7,16 +7,12 @@ import homeSvg from "../../assets/home.svg";
 
 const Home = () => {
   const mealType = ["Breakfast", "Lunch", "Dinner", "Snack", "Teatime"];
-
   const [query, setQuery] = useState("egg");
-
   const [selectedMeal, setSelectedMeal] = useState(mealType[0]);
-
   const [recipes, setRecipes] = useState(null);
 
-  const APP_ID = `ebe4dc0a`;
-
-  const APP_KEY = `fdefa17787eb472fab4d630daa04fbef`;
+  const APP_ID = "4e9f05eb";
+  const APP_KEY = "9b904d703fa0d46a88ce1ac63f29f498";
 
   const url = `https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}&mealType=${selectedMeal}`;
 
