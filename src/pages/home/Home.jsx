@@ -29,7 +29,7 @@ const Home = () => {
     }
   };
 
-  console.log(recipes);
+  // console.log(recipes);
   return (
     <div>
       <Header
