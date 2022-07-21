@@ -20,7 +20,7 @@ const About = () => {
         </h4>
         <h2>
           <a href="mailto:bemre.kalkan@gmail.com">Send email</a> :
-          josh.smith@clarusway.com
+          bemre.kalkan@gmail.com
         </h2>
       </InfoContainer>
     </AboutContainer>
