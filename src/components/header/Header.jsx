@@ -1,4 +1,4 @@
-import HeaderStyle, {
+import {
   Button,
   Select,
   FoodInput,
