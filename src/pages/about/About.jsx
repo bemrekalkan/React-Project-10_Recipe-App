@@ -19,7 +19,7 @@ const About = () => {
           Python, Linux, AWS Services.
         </h4>
         <h2>
-          <a href="mailto:josh.smith@clarusway.com">Send email</a> :
+          <a href="mailto:bemre.kalkan@gmail.com">Send email</a> :
           josh.smith@clarusway.com
         </h2>
       </InfoContainer>
